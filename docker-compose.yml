@@ -6,7 +6,7 @@ services:
   agent:
     build: .
     ports:
-      - "8000:8000"
+      - "8000-8005:8000"
     environment:
       - PORT=8000
       - AGENT_API_KEY=${AGENT_API_KEY}
